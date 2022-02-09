@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person" proxied="yes">
+		<email>me@nullob.si</email>
+		<name>nullobsi</name>
+	</maintainer>
+	<maintainer type="project" proxied="proxy">
+		<email>proxy-maint@gentoo.org</email>
+		<name>Proxy Maintainers</name>
+	</maintainer>
+	<longdescription>
+		A complex camera support library for Linux, Android, and ChromeOS
+	</longdescription>
+	<use>
+		<flag name="tools">Compile cam and lc-compliance</flag>
+		<flag name="docs">Generate documentation</flag>
+		<flag name="ipu3">Enable ipu3 support</flag>
+		<flag name="raspberrypi">Enable Raspberry Pi support</flag>
+		<flag name="rkisp1">Enable rkisp1 support</flag>
+		<flag name="simple">Enable the simple backend</flag>
+		<flag name="uvc">Enable UVC support</flag>
+		<flag name="vimc">Enable vimc support</flag>
+		<flag name="qt">Compile qcam</flag>
+		<flag name="v4l2">Use Video4Linux2 for backward compatibility</flag>
+		<flag name="ipa">Compile Image Processing Algorithms</flag>
+	</use>
+</pkgmetadata>
