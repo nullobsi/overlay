@@ -8,7 +8,7 @@ PLOCALE_BACKUP="en"
 
 inherit cmake plocale qmake-utils xdg
 
-L10N_VER="1.5.1599"
+L10N_VER="1.5.1606.2"
 
 DESCRIPTION="Qt XMPP client"
 HOMEPAGE="https://psi-im.org"
